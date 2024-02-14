@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>DOM</h1>
+    <br>
+    <hr>
+    <br>
+    <hr>Manejo de Dom</h3>
+    <p id="que-es">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus necessitatibus eius velit, repudiandae labore officia laboriosam hic, repellat corrupti mollitia itaque voluptatibus quaerat? Nemo non aliquam maxime expedita saepe praesentium.
+    </p>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Seccion1</a></li>
+            <li><a href="#">Seccion2</a></li>
+            <li><a href="#">Seccion3</a></li>
+            <li><a href="#">Seccion4</a></li>
+            <li><a href="#">Seccion5</a></li>
+        </ul>
+    </nav>
+    <input type="text" name="nombre" placeholder="Nombre">
+    <a href="dom.html" class="link-dom" data-description="Document Object Model" style="background-color: blue; color: yellow;" data-id="1">DOM</a>
+    <style>
+        :root{
+            --yellow-color:#12110f;
+            --dark-color:#222;
+        }
+
+        .card{
+            display: inline-block;
+        }
+
+        .card figcaption{
+            padding: 1rem;
+        }
+
+        .rotate-45{
+            transform: rotate(45deg);
+        }
+
+        .rotate-135{
+            transform: rotate(135deg);
+        }
+
+        .opacity-80{
+            opacity: .8;
+        }
+
+        .sepia{
+            filter: sepia(1);
+        }
+    </style>
+    <section class="cards">
+        <figure class="card">
+            <img src="https://picsum.photos/200/300?random=1"alt="Animals">
+            <figcaption>Random 1</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/200/300?random=2" alt="People">
+            <figcaption>Random 2</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/200/300?random=4" alt="Arch">
+            <figcaption>Random 3</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/200/300?random=3" alt="Nature">
+            <figcaption>Random 4</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/200/300?random=5" alt="Tech">
+            <figcaption>random 5</figcaption>
+        </figure>
+ 
+    </section>
+
+
+    <script src="/js/dom.js"> </script>
+
+
+</body>
+
+</script>
+</html>
