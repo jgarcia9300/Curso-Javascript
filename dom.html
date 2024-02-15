@@ -27,8 +27,14 @@
     <a href="dom.html" class="link-dom" data-description="Document Object Model" style="background-color: blue; color: yellow;" data-id="1">DOM</a>
     <style>
         :root{
-            --yellow-color:#12110f;
+            --yellow-color:#f6b638;
             --dark-color:#222;
+        }
+
+        .cards {
+            border: thin solid var(--dark-color);
+            padding: 1rem;
+
         }
 
         .card{
@@ -78,7 +84,12 @@
         </figure>
  
     </section>
-
+    <template id="template-card"> 
+        <figure class="card">
+        <img>
+        <figcaption> </figcaption>
+        </figure>
+    </template> 
 
     <script src="/js/dom.js"> </script>
 
